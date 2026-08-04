@@ -64,6 +64,14 @@ export default function ContactPage() {
                     <p className="text-gray-500 text-sm leading-relaxed">
                       {siteConfig.address}
                     </p>
+                    <a
+                      href={siteConfig.justdial}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mt-2 text-xs font-semibold text-brand-green hover:underline"
+                    >
+                      View on JustDial
+                    </a>
                   </div>
                 </div>
 
@@ -169,7 +177,7 @@ export default function ContactPage() {
       {/* ── Google Maps Embed ── */}
       <section className="h-96 bg-gray-200 relative">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.0!2d76.85!3d30.69!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sPanchkula%2C%20Haryana!5e0!3m2!1sen!2sin!4v1700000000000"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.2!2d85.19!3d25.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sKadamkuan%2C%20Patna%2C%20Bihar!5e0!3m2!1sen!2sin!4v1700000000000"
           className="w-full h-full border-0"
           allowFullScreen
           loading="lazy"

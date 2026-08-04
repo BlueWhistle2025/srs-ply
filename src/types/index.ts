@@ -49,6 +49,7 @@ export interface SiteConfig {
   phone: string[];
   email: string[];
   address: string;
+  justdial: string;
   workingHours: string;
   socialLinks: {
     facebook: string;
