@@ -31,7 +31,7 @@ export default function Footer() {
               alt={siteConfig.name}
               width={160}
               height={80}
-              className="h-16 w-auto object-contain mb-4 brightness-0 invert"
+              className="h-16 w-auto object-contain mb-4 rounded-lg bg-white p-1"
             />
             <p className="text-sm leading-relaxed mb-6">
               {siteConfig.description}

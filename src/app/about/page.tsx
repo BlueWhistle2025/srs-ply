@@ -85,14 +85,23 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="relative">
-              <div className="bg-gradient-to-br from-brand-primary to-emerald-800 rounded-2xl p-12 flex items-center justify-center aspect-[4/3]">
+            <div className="relative rounded-2xl overflow-hidden aspect-[4/3]">
+              <Image
+                src="/gallery/factory-workers-inspection.jpg"
+                alt="Workers inspecting plywood quality at SRS LLP"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-primary/30 to-transparent" />
+              {/* Logo badge */}
+              <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-2">
                 <Image
                   src="/logo.png"
-                  alt="SRS LLP – A House of Plywood"
-                  width={350}
-                  height={200}
-                  className="brightness-0 invert w-3/4"
+                  alt="SRS LLP"
+                  width={100}
+                  height={50}
+                  className="h-8 w-auto"
                 />
               </div>
             </div>
@@ -100,7 +109,29 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ── Vision & Mission ── */}
+      {/* -- Photo Strip -- */}
+      <section className="py-0 bg-white">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-1">
+          {[
+            { src: "/gallery/storefront-exterior.jpg", alt: "Shree Ram Sales LLP storefront" },
+            { src: "/gallery/factory-dual-presses.jpg", alt: "Factory dual press machines" },
+            { src: "/gallery/showroom-samples.jpg", alt: "Showroom sample display" },
+            { src: "/gallery/factory-plywood-stacks.jpg", alt: "Plywood stacks in factory" },
+          ].map((photo) => (
+            <div key={photo.src} className="relative aspect-[3/2] overflow-hidden">
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                fill
+                className="object-cover hover:scale-105 transition-transform duration-500"
+                sizes="(max-width: 768px) 50vw, 25vw"
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* -- Vision & Mission -- */}
       <section className="py-20 bg-brand-cream">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8">

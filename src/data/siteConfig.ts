@@ -72,30 +72,15 @@ export const stats = [
 
 export const heroSlides = [
   {
-    title: "Premium Quality Plywood",
-    subtitle: "Built to Last, Crafted with Precision",
-    description:
-      "Discover our range of high-grade plywood engineered for strength, durability, and a flawless finish.",
-    cta: "Explore Products",
-    ctaLink: "/products",
-    gradient: "from-amber-900 via-amber-800 to-yellow-900",
+    title: "Nature Refined, Luxury Defined",
+    image: "/banner-1.png",
   },
   {
-    title: "Laminates & Veneers",
-    subtitle: "Transform Every Surface",
-    description:
-      "Choose from hundreds of textures, patterns, and finishes to elevate your interiors.",
-    cta: "View Collection",
-    ctaLink: "/products",
-    gradient: "from-stone-900 via-stone-800 to-amber-900",
+    title: "Premium Plywood, Laminates & Veneers",
+    image: "/banner-2.png",
   },
   {
-    title: "Trusted by Professionals",
-    subtitle: "Your Reliable Plywood Partner",
-    description:
-      "Architects, designers, and builders across India trust SRS for consistent quality and reliable delivery.",
-    cta: "Contact Us",
-    ctaLink: "/contact",
-    gradient: "from-emerald-900 via-emerald-800 to-teal-900",
+    title: "Trusted by Professionals Across India",
+    image: "/banner-3.png",
   },
 ];

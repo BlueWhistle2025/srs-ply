@@ -24,20 +24,16 @@ export default function CompanyIntro() {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="bg-gradient-to-br from-brand-primary to-emerald-800 rounded-2xl p-10 aspect-square md:aspect-[4/3] flex items-center justify-center relative overflow-hidden">
-              {/* Decorative rings */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-72 h-72 border border-white/10 rounded-full" />
-                <div className="absolute w-96 h-96 border border-white/5 rounded-full" />
-              </div>
-
+            <div className="rounded-2xl aspect-square md:aspect-[4/3] relative overflow-hidden">
               <Image
-                src="/logo.png"
-                alt="SRS LLP"
-                width={300}
-                height={200}
-                className="relative z-10 brightness-0 invert w-3/4 max-w-xs"
+                src="/gallery/factory-floor-overview.jpg"
+                alt="SRS LLP manufacturing facility"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
+              {/* Subtle brand overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-primary/40 to-transparent" />
             </div>
 
             {/* Floating stat card */}
