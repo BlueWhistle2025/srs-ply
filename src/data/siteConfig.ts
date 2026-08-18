@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
   tagline: "A House of Plywood",
   description:
     "SRS LLP is a leading plywood manufacturer and supplier offering premium quality plywood, block boards, flush doors, laminates, and veneers for residential and commercial projects.",
-  phone: ["+91 98765 43210", "+91 98765 43211"],
+  phone: ["+91 97986 61049"],
   email: ["info@srsplywood.com", "sales@srsplywood.com"],
   address:
     "Shree Ram Sales LLP, Chura Mill, Ram Krishnapath, Gali, Kadamkuna, Pirmohani Road, Kadamkuan, Patna-800003, Bihar",

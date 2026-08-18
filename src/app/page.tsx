@@ -6,6 +6,7 @@ import FeaturedProducts from "@/components/home/FeaturedProducts";
 import BrandHighlights from "@/components/home/BrandHighlights";
 import StatsCounter from "@/components/home/StatsCounter";
 import Testimonials from "@/components/home/Testimonials";
+import VideoShowcase from "@/components/home/VideoShowcase";
 import CTABanner from "@/components/home/CTABanner";
 
 export default function HomePage() {
@@ -13,6 +14,7 @@ export default function HomePage() {
     <>
       <HeroSlider />
       <CompanyIntro />
+      <VideoShowcase />
       <StatsCounter />
       <CategoryGrid />
       <FeaturedProducts />

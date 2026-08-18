@@ -30,11 +30,11 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center">
           <div className="flex items-center gap-6">
             <a
-              href="tel:+919876543210"
+              href="tel:+919798661049"
               className="flex items-center gap-1.5 hover:text-brand-accent transition-colors"
             >
               <Phone size={14} />
-              +91 98765 43210
+              +91 97986 61049
             </a>
             <a
               href="mailto:info@srsplywood.com"
@@ -142,8 +142,8 @@ export default function Header() {
 
             {/* Mobile contact info */}
             <div className="px-4 pb-4 pt-2 border-t text-sm text-gray-500 space-y-2">
-              <a href="tel:+919876543210" className="flex items-center gap-2">
-                <Phone size={14} /> +91 98765 43210
+              <a href="tel:+919798661049" className="flex items-center gap-2">
+                <Phone size={14} /> +91 97986 61049
               </a>
               <a href="mailto:info@srsplywood.com" className="flex items-center gap-2">
                 <Mail size={14} /> info@srsplywood.com

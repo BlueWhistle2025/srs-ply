@@ -59,7 +59,7 @@ export default function ContactForm() {
             type="tel"
             required
             className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-brand-green focus:ring-2 focus:ring-brand-green/20 outline-none transition-colors text-sm"
-            placeholder="+91 98765 43210"
+            placeholder="+91 97986 61049"
           />
         </div>
       </div>
