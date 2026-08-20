@@ -113,6 +113,134 @@ export const galleryImages: GalleryImage[] = [
     description:
       "Floor-to-ceiling laminate sample racks showcasing hundreds of textures and colours.",
   },
+  {
+    id: 14,
+    src: "/gallery/greenlam-studio-exterior.jpg",
+    title: "Greenlam Studio",
+    category: "storefront",
+    description:
+      "Exterior view of the Greenlam Studio — an authorised Greenlam Laminates experience centre.",
+  },
+  {
+    id: 15,
+    src: "/gallery/showroom-laminate-corridor.jpg",
+    title: "Laminate Sample Corridor",
+    category: "showroom",
+    description:
+      "Walk-through corridor lined with laminate sample racks and decorative artwork.",
+  },
+  {
+    id: 16,
+    src: "/gallery/showroom-laminate-panels.jpg",
+    title: "Laminate Panel Display",
+    category: "showroom",
+    description:
+      "Full-size laminate panels in wood-grain and textured finishes with labelled sample tags.",
+  },
+  {
+    id: 17,
+    src: "/gallery/showroom-greenlam-samples.jpg",
+    title: "Greenlam Laminate Samples",
+    category: "showroom",
+    description:
+      "Close-up of Greenlam laminate sample racks featuring Safeguard Plus technology branding.",
+  },
+  {
+    id: 18,
+    src: "/gallery/showroom-event-stage.jpg",
+    title: "Event & Conference Area",
+    category: "showroom",
+    description:
+      "Showroom stage and conference area with Greenlam Nirmaan Sammelan event branding.",
+  },
+  {
+    id: 19,
+    src: "/gallery/showroom-reception-desk.jpg",
+    title: "Showroom Reception",
+    category: "showroom",
+    description:
+      "Modern geometric reception counter with pendant lighting and sample displays.",
+  },
+  {
+    id: 20,
+    src: "/gallery/showroom-reception-wide.jpg",
+    title: "Reception & Lounge Area",
+    category: "showroom",
+    description:
+      "Wide view of the showroom reception with Greenlam Chai Connect hospitality area.",
+  },
+  {
+    id: 21,
+    src: "/gallery/showroom-color-wall.jpg",
+    title: "Surfacing Colour Palette",
+    category: "showroom",
+    description:
+      "Vibrant colour wall showcasing endless surfacing possibilities across hundreds of shades.",
+  },
+  {
+    id: 22,
+    src: "/gallery/showroom-art-panel.jpg",
+    title: "Decorative Art Feature",
+    category: "showroom",
+    description:
+      "Eye-catching orange decorative art panel with design tool motifs at the showroom entrance.",
+  },
+  {
+    id: 23,
+    src: "/gallery/showroom-architecture-wall.jpg",
+    title: "Legends of Architecture",
+    category: "showroom",
+    description:
+      "Inspirational wall featuring portraits and quotes from legendary architects worldwide.",
+  },
+  {
+    id: 24,
+    src: "/gallery/showroom-laminate-aisle.jpg",
+    title: "Laminate Sample Aisle",
+    category: "showroom",
+    description:
+      "Long aisle of floor-to-ceiling laminate racks with wood-grain finishes and sample tags.",
+  },
+  {
+    id: 25,
+    src: "/gallery/showroom-wood-finish-racks.jpg",
+    title: "Wood Finish Sample Racks",
+    category: "showroom",
+    description:
+      "Pine, teak, and dark-wood laminate samples displayed in vertical flip-through racks.",
+  },
+  {
+    id: 26,
+    src: "/gallery/showroom-display-sections.jpg",
+    title: "Laminate Display Sections",
+    category: "showroom",
+    description:
+      "Panoramic view of multiple laminate display bays organised by finish and texture.",
+  },
+  {
+    id: 27,
+    src: "/gallery/showroom-afx-sizes.jpg",
+    title: "AFX Laminate Sizes",
+    category: "showroom",
+    description:
+      "AFX laminate display showing available sizes for doors, furniture, wall panels, and kitchens.",
+  },
+  {
+    id: 28,
+    src: "/gallery/showroom-cubicles-lockers.jpg",
+    title: "Cubicles & Lockers",
+    category: "showroom",
+    description:
+      "Restroom cubicle partitions and locker units made with compact laminate panels.",
+  },
+  {
+    id: 29,
+    src: "/gallery/showroom-clads-display.jpg",
+    title: "Greenlam CLADS Collection",
+    category: "showroom",
+    description:
+      "Greenlam CLADS exterior-grade compact laminates wall with full colour and wood-grain swatches.",
+  },
 ];
 
 export const galleryCategories = [

@@ -2,7 +2,7 @@ import type { SiteConfig, NavLink, Testimonial } from "@/types";
 
 export const siteConfig: SiteConfig = {
   name: "SRS LLP",
-  tagline: "A House of Plywood",
+  tagline: "A House of Trust",
   description:
     "SRS LLP is a leading plywood manufacturer and supplier offering premium quality plywood, block boards, flush doors, laminates, and veneers for residential and commercial projects.",
   phone: ["+91 97986 61049"],

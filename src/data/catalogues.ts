@@ -17,7 +17,7 @@ export const catalogues: Catalogue[] = [
     name: "SRS Product Catalogue",
     brand: "SRS LLP",
     description:
-      "Complete product range overview from SRS -- A House of Plywood. Covers plywood, block boards, flush doors, and more.",
+      "Complete product range overview from SRS -- A House of Trust. Covers plywood, block boards, flush doors, and more.",
     file: "/pdf/srs-catalogue.pdf",
     size: "48.6 MB",
     color: "#2E7D32",

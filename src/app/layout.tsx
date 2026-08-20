@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   title: {
-    default: "SRS LLP – A House of Plywood | Premium Plywood Solutions",
+    default: "SRS LLP – A House of Trust | Premium Plywood Solutions",
     template: "%s | SRS LLP",
   },
   description:
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "plywood supplier India",
   ],
   openGraph: {
-    title: "SRS LLP – A House of Plywood",
+    title: "SRS LLP – A House of Trust",
     description:
       "Premium quality plywood, laminates, and wood panel products for every project.",
     type: "website",
