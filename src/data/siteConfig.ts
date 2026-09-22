@@ -8,7 +8,7 @@ export const siteConfig: SiteConfig = {
   phone: ["+91 97986 61049"],
   email: ["info@srsplywood.com", "sales@srsplywood.com"],
   address:
-    "Shree Ram Sales LLP, Chura Mill, Ram Krishnapath, Gali, Kadamkuna, Pirmohani Road, Kadamkuan, Patna-800003, Bihar",
+    "Shree Ram Sales LLP, Chura Mill, Ram Krishnapath, Gali, Kadamkuan, Pirmohani Road, Kadamkuan, Patna-800003, Bihar",
   justdial: "https://jsdl.in/DT-47CS71Y71DF",
   workingHours: "Mon – Sat: 9:00 AM – 7:00 PM | Sun: 10:00 AM – 4:00 PM",
   socialLinks: {
